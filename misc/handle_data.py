@@ -173,5 +173,5 @@ labels = {"uav_training_paths":uav_training_paths,"sat_training_paths":sat_train
     "grid_labels_training":grid_labels_training,"grid_labels_validation":grid_labels_validation,\
     "z_labels_training":z_labels_training,"z_labels_validation":z_labels_validation}
 
-with open('D:/Shetty_data/train/training_labels_100m.pickle', 'wb') as handle:
+with open('D:/Shetty_data/train/training_labels.pickle', 'wb') as handle:
     pickle.dump(labels, handle, protocol=pickle.HIGHEST_PROTOCOL)
